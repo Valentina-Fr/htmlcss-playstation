@@ -3,8 +3,8 @@
 body{
     padding-top: 120px;
 }
- 
-/* [class*="col-"] {
+/*  
+[class*="col-"] {
     border: 1px solid black;
     min-height: 100px;
 } */
@@ -59,4 +59,18 @@ body{
 
 #ps-now-img {
     width: 300px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00439c;
+}
+
+#globe-img {
+    width: 25px;
+}
+
+#sony-logo {
+    width: 100px;
 }
