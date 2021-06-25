@@ -23,11 +23,20 @@ body{
 
 /* Jumbotron */
 
-#returnal {
+.jumbotron {
     height: 500px;
-    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
 }
 
+#returnal {
+    background-image: url(../img/jumbo-bg.png);
+}
 
+#it-takes-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#returnal-img, #it-takes-img {
+    width: 250px;
+}
