@@ -1,4 +1,17 @@
-[class*="col-"] {
-    height: 100px;
-    border: 1px solid black;
+/* Reset */
+
+body{
+    padding-top: 120px;
 }
+
+/* Header */
+
+#play-logo {
+    width: 150px;
+}
+    
+
+#lens {
+    width: 30px;
+}
+
