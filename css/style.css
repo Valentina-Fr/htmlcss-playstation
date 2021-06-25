@@ -15,3 +15,12 @@ body{
     width: 30px;
 }
 
+/* Jumbotron */
+
+#returnal {
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
