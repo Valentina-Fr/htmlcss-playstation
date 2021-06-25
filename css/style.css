@@ -3,6 +3,12 @@
 body{
     padding-top: 120px;
 }
+ 
+/* [class*="col-"] {
+    border: 1px solid black;
+    min-height: 100px;
+}
+ */
 
 /* Header */
 
@@ -23,4 +29,5 @@ body{
     background-size: cover;
     background-position: center;
 }
+
 
