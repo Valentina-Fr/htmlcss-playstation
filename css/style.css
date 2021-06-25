@@ -7,8 +7,8 @@ body{
 /* [class*="col-"] {
     border: 1px solid black;
     min-height: 100px;
-}
- */
+} */
+
 
 /* Header */
 
@@ -41,8 +41,22 @@ body{
     width: 250px;
 }
 
+/* Playstation plus */
+
+#playstation-plus {
+    background-color: #bebcbb;
+}
+
+#plus-img {
+    width: 300px;
+}
+
 /* Playstation now */
 
 #playstation-now {
     background-color: #161c3b;
+}
+
+#ps-now-img {
+    width: 300px;
 }
