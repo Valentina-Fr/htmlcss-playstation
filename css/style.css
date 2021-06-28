@@ -1,30 +1,47 @@
 /* Reset */
 
 body{
-    padding-top: 120px;
+    padding-top: 110px;
 }
-/*  
-[class*="col-"] {
-    border: 1px solid black;
-    min-height: 100px;
-} */
-
 
 /* Header */
 
 #play-logo {
-    width: 150px;
+    width: 100px;
 }
-    
+   
+.chevron-down, .chevron-hover {
+    width: 10px;
+}
+
+.chevron-hover {
+    display: none;
+}
 
 #lens {
     width: 30px;
 }
 
+#main-menu .nav-link{
+    color: #212529;
+}
+
+#main-menu .nav-item:hover .nav-link{
+    color: #0070d1;
+}
+
+#main-menu .nav-item:hover .chevron-down {
+    display: none;
+}
+
+#main-menu .nav-item:hover .chevron-hover {
+    display: inline-block;
+} 
+
 /* Jumbotron */
 
 .jumbotron {
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
@@ -37,8 +54,39 @@ body{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-#returnal-img, #it-takes-img {
-    width: 250px;
+/* Gallery 1 */
+
+.active-gallery {
+    outline-offset: 5px;
+    outline: 2px solid #0070d1;
+}
+
+#gallery-1 figure {
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+#gallery-1 figure:hover {
+    transform: translateY(-8px);
+}
+
+/* Playstation 5 */
+
+#playstation-5 figure {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#playstation-5 .active-play5 {
+    border-bottom: 2px solid #0070d1;
+}
+
+#playstation-5 .active-play5 figure {
+    opacity: 1;
+}
+
+#playstation-5 figure:hover {
+    opacity: 1;
 }
 
 /* Playstation plus */
@@ -47,18 +95,10 @@ body{
     background-color: #bebcbb;
 }
 
-#plus-img {
-    width: 300px;
-}
-
 /* Playstation now */
 
 #playstation-now {
     background-color: #161c3b;
-}
-
-#ps-now-img {
-    width: 300px;
 }
 
 /* Footer */
