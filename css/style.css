@@ -4,6 +4,12 @@ body{
     padding-top: 110px;
 }
 
+/* General Styles */
+
+sup {
+    font-size: 0.50em;
+}
+
 /* Header */
 
 #play-logo {
